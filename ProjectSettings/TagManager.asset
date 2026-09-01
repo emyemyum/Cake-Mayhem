@@ -41,14 +41,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: New Layer 1
-    uniqueID: 3176730569
+  - name: Background
+    uniqueID: 2029550937
     locked: 0
-  - name: New Layer 2
-    uniqueID: 3670573125
+  - name: Props
+    uniqueID: 509288883
     locked: 0
-  - name: New Layer 3
-    uniqueID: 925939907
+  - name: Player
+    uniqueID: 1816137837
+    locked: 0
+  - name: Foreground
+    uniqueID: 4154180099
     locked: 0
   m_RenderingLayers:
   - Default

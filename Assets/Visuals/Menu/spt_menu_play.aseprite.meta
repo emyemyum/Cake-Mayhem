@@ -133,7 +133,7 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 4
+      x: 268
       y: 4
       width: 214
       height: 225
@@ -145,19 +145,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 268, y: 4}
   - name: Layer 2
     originalName: 
-    pivot: {x: 0.4468085, y: -1.5102041}
+    pivot: {x: 0.47651008, y: -1.3653847}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
       x: 4
-      y: 237
-      width: 141
-      height: 49
+      y: 268
+      width: 149
+      height: 52
     spriteID: 10f5bf20164830c488d320ff449c9da6
     spriteBone: []
     spriteOutline: []
@@ -166,11 +166,57 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 237}
+    uvTransform: {x: 4, y: 268}
+  - name: Layer 3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 256
+      height: 256
+    spriteID: a1a203668ed691f4fb4bf78ee47e7175
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
   spriteSheetImportData: []
   tileSetImportData: []
   asepriteLayers:
-  - layerIndex: 1
+  - layerIndex: 0
+    uuid:
+      value0: 4287466678
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 0
+    name: Layer 3
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 3
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      spriteId: a1a203668ed691f4fb4bf78ee47e7175
+    linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
+    parentIndex: -1
+  - layerIndex: 2
     uuid:
       value0: 4287466680
       value1: 0
@@ -195,7 +241,7 @@ ScriptedImporter:
     tileCells: []
     tileSetIndex: 0
     parentIndex: -1
-  - layerIndex: 2
+  - layerIndex: 3
     uuid:
       value0: 4287466677
       value1: 0
@@ -211,10 +257,10 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 65
-        y: 74
-        width: 141
-        height: 49
+        x: 57
+        y: 71
+        width: 149
+        height: 52
       spriteId: 10f5bf20164830c488d320ff449c9da6
     linkedCells: []
     tileCells: []
@@ -248,5 +294,5 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
-  previousTextureSize: {x: 256, y: 512}
+  previousTextureSize: {x: 512, y: 512}
   canvasSize: {x: 256, y: 256}

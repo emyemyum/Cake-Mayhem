@@ -2,8 +2,8 @@ using UnityEngine;
 
 namespace cake_mayhem
 {
-    public class MenuManager
-    {
+    public class scr_manager_menu
+	{
         void PlayButton() { }
         void VolSlider() { }
         void MusSlider() { }

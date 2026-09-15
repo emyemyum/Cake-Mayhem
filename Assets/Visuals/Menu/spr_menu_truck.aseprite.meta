@@ -74,7 +74,7 @@ ScriptedImporter:
   previousAsepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -89,7 +89,7 @@ ScriptedImporter:
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 1
+    layerImportMode: 0
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -101,7 +101,7 @@ ScriptedImporter:
     addShadowCasters: 0
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
-  platformSettingsDirtyTick: 639250048969642613
+  platformSettingsDirtyTick: 639250804851892222
   singleSpriteImportData:
   - name: 
     originalName: 
@@ -125,7 +125,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: spr_menu_truck
+  - name: Layer 1
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -136,8 +136,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 960
-      height: 410
-    spriteID: 7f808f2f2d0de764783224a2e465b4a5
+      height: 323
+    spriteID: 711bd33bd6397654aa0fd794282ca9dc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -146,30 +146,168 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Layer 2
+    originalName: 
+    pivot: {x: 0.09604519, y: -0.05670103}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 673
+      width: 354
+      height: 388
+    spriteID: 253f783c1dcdc7a469b0822abdeb29d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 673}
+  - name: Layer 3 Copy
+    originalName: 
+    pivot: {x: 0.70692194, y: -0.02727273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 335
+      width: 679
+      height: 330
+    spriteID: 1f25303111b804c41ba86f477b625ba3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 335}
+  - name: Layer 4
+    originalName: 
+    pivot: {x: 1.1897018, y: -0.046979863}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 366
+      y: 673
+      width: 369
+      height: 149
+    spriteID: 93c7c2735443add4ca6db1e5dd8147f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 366, y: 673}
   spriteSheetImportData: []
   tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 2937857913
+      value0: 4287466680
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: spr_menu_truck
-    layerFlags: 0
+    name: Layer 1
+    layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: spr_menu_truck
+    - name: Layer 1
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 960
-        height: 410
-      spriteId: 7f808f2f2d0de764783224a2e465b4a5
+        height: 323
+      spriteId: 711bd33bd6397654aa0fd794282ca9dc
+    linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
+    parentIndex: -1
+  - layerIndex: 1
+    uuid:
+      value0: 4287466677
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 0
+    name: Layer 2
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 2
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 446
+        y: 22
+        width: 354
+        height: 388
+      spriteId: 253f783c1dcdc7a469b0822abdeb29d8
+    linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
+    parentIndex: -1
+  - layerIndex: 3
+    uuid:
+      value0: 3900438645
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 0
+    name: Layer 3 Copy
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 3 Copy
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 9
+        width: 679
+        height: 330
+      spriteId: 1f25303111b804c41ba86f477b625ba3
+    linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
+    parentIndex: -1
+  - layerIndex: 4
+    uuid:
+      value0: 4287466683
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 0
+    name: Layer 4
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 4
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 41
+        y: 7
+        width: 369
+        height: 149
+      spriteId: 93c7c2735443add4ca6db1e5dd8147f4
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -202,5 +340,5 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
-  previousTextureSize: {x: 1024, y: 512}
+  previousTextureSize: {x: 1024, y: 2048}
   canvasSize: {x: 960, y: 540}

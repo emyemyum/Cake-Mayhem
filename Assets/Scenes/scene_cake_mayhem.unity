@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 45648047}
   m_Layer: 5
-  m_Name: Handle Slide Area
+  m_Name: obj_Handle_Slide_Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 86031843}
   - component: {fileID: 86031844}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: obj_spr_button_play_cake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,7 +234,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1918597393
   m_SortingLayer: 5
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -9148435561732496755, guid: 592cdbdd9dcb16346bbef10cfa7fa1b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 126952781}
   - component: {fileID: 126952782}
   m_Layer: 5
-  m_Name: canvas_slider_Mus
+  m_Name: obj_canvas_slider_mus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -279,7 +279,7 @@ RectTransform:
   - {fileID: 1101674544}
   - {fileID: 1705442862}
   - {fileID: 45648047}
-  m_Father: {fileID: 1547100005}
+  m_Father: {fileID: 345281645}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 128604663}
   - component: {fileID: 128604664}
   m_Layer: 0
-  m_Name: spr_menu_bg_clouds
+  m_Name: obj_spr_menu_bg_clouds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 140860890}
   - component: {fileID: 140860891}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: obj_spr_button_play_text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,7 +508,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1918597393
   m_SortingLayer: 5
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -7063074182023724454, guid: 592cdbdd9dcb16346bbef10cfa7fa1b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -533,7 +533,7 @@ GameObject:
   - component: {fileID: 197566402}
   - component: {fileID: 197566401}
   m_Layer: 5
-  m_Name: Handle
+  m_Name: obj_Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -609,7 +609,7 @@ GameObject:
   - component: {fileID: 265054572}
   - component: {fileID: 265054571}
   m_Layer: 5
-  m_Name: canvas_button_Quit
+  m_Name: obj_canvas_button_quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -728,7 +728,7 @@ GameObject:
   - component: {fileID: 265314659}
   - component: {fileID: 265314658}
   m_Layer: 5
-  m_Name: Fill
+  m_Name: obj_Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -791,6 +791,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265314656}
   m_CullTransparentMesh: 1
+--- !u!1 &345281644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 345281645}
+  m_Layer: 5
+  m_Name: obj_canvas_Sliders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &345281645
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345281644}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 997348607}
+  - {fileID: 126952781}
+  m_Father: {fileID: 667527865}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &345932188
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,7 +839,7 @@ GameObject:
   - component: {fileID: 345932189}
   - component: {fileID: 345932190}
   m_Layer: 0
-  m_Name: canvas_button_game_01_btm
+  m_Name: obj_spr_button_play02_bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -817,7 +854,7 @@ Transform:
   m_GameObject: {fileID: 345932188}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.3, z: 90}
+  m_LocalPosition: {x: 0, y: -0.6, z: 90}
   m_LocalScale: {x: 2.05, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -872,12 +909,12 @@ SpriteRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -583532052410057551, guid: 26986150c090a494289c7e5e3f58fdd1, type: 3}
+  m_Sprite: {fileID: -3576337200612058241, guid: e521e71d133301544b65ffd4a6baa26a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2, y: 0.8125}
+  m_Size: {x: 1.6875, y: 0.59375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -893,7 +930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 431734497}
   m_Layer: 0
-  m_Name: Background
+  m_Name: obj_spr_background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -907,8 +944,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 431734496}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.07086, y: -0.68271, z: 0}
   m_LocalScale: {x: 1.1125, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -917,7 +954,7 @@ Transform:
   - {fileID: 1331735321}
   - {fileID: 1132604299}
   - {fileID: 128604663}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2104830131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &445606835
 GameObject:
@@ -930,7 +967,7 @@ GameObject:
   - component: {fileID: 445606836}
   - component: {fileID: 445606837}
   m_Layer: 0
-  m_Name: canvas_button_game_01_btm
+  m_Name: obj_spr_button_play01_bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -945,7 +982,7 @@ Transform:
   m_GameObject: {fileID: 445606835}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.3, z: 90}
+  m_LocalPosition: {x: 0, y: -0.6, z: 90}
   m_LocalScale: {x: 2.05, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1000,12 +1037,12 @@ SpriteRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -583532052410057551, guid: 26986150c090a494289c7e5e3f58fdd1, type: 3}
+  m_Sprite: {fileID: -3576337200612058241, guid: e521e71d133301544b65ffd4a6baa26a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2, y: 0.8125}
+  m_Size: {x: 1.6875, y: 0.59375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1024,7 +1061,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: obj_MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1160,7 +1197,7 @@ GameObject:
   - component: {fileID: 608510999}
   - component: {fileID: 608510998}
   m_Layer: 0
-  m_Name: EventSystem
+  m_Name: obj_EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1238,7 +1275,7 @@ GameObject:
   - component: {fileID: 619394802}
   - component: {fileID: 619394801}
   m_Layer: 0
-  m_Name: Global Light 2D
+  m_Name: obj_GlobalLight2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1345,7 +1382,7 @@ GameObject:
   - component: {fileID: 667527863}
   - component: {fileID: 667527862}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: obj_Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1429,8 +1466,7 @@ RectTransform:
   m_Children:
   - {fileID: 834221341}
   - {fileID: 1547100005}
-  - {fileID: 1106380436}
-  - {fileID: 1419448393}
+  - {fileID: 345281645}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1451,7 +1487,7 @@ GameObject:
   - component: {fileID: 738265432}
   - component: {fileID: 738265431}
   m_Layer: 5
-  m_Name: canvas_button_Prt
+  m_Name: obj_canvas_button_port
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1570,7 +1606,7 @@ GameObject:
   - component: {fileID: 834221343}
   - component: {fileID: 834221342}
   m_Layer: 5
-  m_Name: canvas_text_credit
+  m_Name: obj_canvas_text_credit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1708,7 +1744,7 @@ GameObject:
   - component: {fileID: 967854775}
   - component: {fileID: 967854774}
   m_Layer: 5
-  m_Name: canvas_Lang
+  m_Name: obj_canvas_language
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1828,7 +1864,7 @@ GameObject:
   - component: {fileID: 997348607}
   - component: {fileID: 997348608}
   m_Layer: 5
-  m_Name: canvas_slider_Vol
+  m_Name: obj_canvas_slider_vol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1849,7 +1885,7 @@ RectTransform:
   - {fileID: 2013912109}
   - {fileID: 1200457734}
   - {fileID: 1497583485}
-  m_Father: {fileID: 1547100005}
+  m_Father: {fileID: 345281645}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1917,7 +1953,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1011322388}
   m_Layer: 0
-  m_Name: SoundManager
+  m_Name: obj_SoundManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1948,7 +1984,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1017365744}
   m_Layer: 0
-  m_Name: spr_menu_playbutton
+  m_Name: obj_spr_button_play
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1963,8 +1999,8 @@ Transform:
   m_GameObject: {fileID: 1017365743}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.71, y: -4.91, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.71, y: -4.93, z: 0}
+  m_LocalScale: {x: 1.1125, y: 1.1125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 86031843}
@@ -1983,7 +2019,7 @@ GameObject:
   - component: {fileID: 1101674546}
   - component: {fileID: 1101674545}
   m_Layer: 5
-  m_Name: Background
+  m_Name: obj_Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2059,7 +2095,7 @@ GameObject:
   - component: {fileID: 1106380438}
   - component: {fileID: 1106380437}
   m_Layer: 5
-  m_Name: canvas_button_game_01
+  m_Name: obj_canvas_button_play02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2072,12 +2108,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106380435}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 667527865}
+  m_Father: {fileID: 1547100005}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2177,7 +2213,7 @@ GameObject:
   - component: {fileID: 1123721035}
   - component: {fileID: 1123721036}
   m_Layer: 0
-  m_Name: spr_menu_bg_sky
+  m_Name: obj_spr_menu_bg_sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2269,7 +2305,7 @@ GameObject:
   - component: {fileID: 1132604299}
   - component: {fileID: 1132604300}
   m_Layer: 0
-  m_Name: spr_menu_bg_clouds
+  m_Name: obj_spr_menu_bg_clouds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2360,7 +2396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1200457734}
   m_Layer: 5
-  m_Name: Fill Area
+  m_Name: obj_Fill_Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2398,7 +2434,7 @@ GameObject:
   - component: {fileID: 1236823870}
   - component: {fileID: 1236823869}
   m_Layer: 5
-  m_Name: Fill
+  m_Name: obj_Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2472,7 +2508,7 @@ GameObject:
   - component: {fileID: 1262726652}
   - component: {fileID: 1262726653}
   m_Layer: 0
-  m_Name: canvas_button_game_01_top
+  m_Name: obj_spr_button_play01_top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2487,7 +2523,7 @@ Transform:
   m_GameObject: {fileID: 1262726651}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.9534, z: 90}
+  m_LocalPosition: {x: 0, y: 1.93, z: 90}
   m_LocalScale: {x: 2.05, y: 1.4265, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2542,12 +2578,12 @@ SpriteRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -4397945519043563074, guid: 26986150c090a494289c7e5e3f58fdd1, type: 3}
+  m_Sprite: {fileID: 1814830991658374767, guid: e521e71d133301544b65ffd4a6baa26a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2, y: 0.8125}
+  m_Size: {x: 1.6875, y: 0.59375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2563,7 +2599,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1283258084}
   m_Layer: 0
-  m_Name: Buttons_sprites
+  m_Name: obj_spr_buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2577,15 +2613,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283258083}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.07086, y: -0.68271, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1017365744}
   - {fileID: 1561390606}
   - {fileID: 2055051010}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2104830131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1331735320
 GameObject:
@@ -2598,7 +2634,7 @@ GameObject:
   - component: {fileID: 1331735321}
   - component: {fileID: 1331735322}
   m_Layer: 0
-  m_Name: spr_menu_bg_clouds
+  m_Name: obj_spr_menu_bg_clouds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2690,7 +2726,7 @@ GameObject:
   - component: {fileID: 1369290816}
   - component: {fileID: 1369290817}
   m_Layer: 0
-  m_Name: canvas_button_game_01_top
+  m_Name: obj_spr_button_play02_top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2705,7 +2741,7 @@ Transform:
   m_GameObject: {fileID: 1369290815}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.9534, z: 90}
+  m_LocalPosition: {x: 0, y: 1.93, z: 90}
   m_LocalScale: {x: 2.05, y: 1.4265, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2760,12 +2796,12 @@ SpriteRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -4397945519043563074, guid: 26986150c090a494289c7e5e3f58fdd1, type: 3}
+  m_Sprite: {fileID: 1814830991658374767, guid: e521e71d133301544b65ffd4a6baa26a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2, y: 0.8125}
+  m_Size: {x: 1.6875, y: 0.59375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2784,7 +2820,7 @@ GameObject:
   - component: {fileID: 1419448395}
   - component: {fileID: 1419448394}
   m_Layer: 5
-  m_Name: canvas_button_game_02
+  m_Name: obj_canvas_button_play01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2797,16 +2833,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419448392}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 667527865}
+  m_Father: {fileID: 1547100005}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -400, y: 0}
+  m_AnchoredPosition: {x: -400.0001, y: 0}
   m_SizeDelta: {x: 400, y: 650}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1419448394
@@ -2904,7 +2940,7 @@ GameObject:
   - component: {fileID: 1421001142}
   - component: {fileID: 1421001141}
   m_Layer: 5
-  m_Name: canvas_button_Play
+  m_Name: obj_canvas_button_play
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3021,7 +3057,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1497583485}
   m_Layer: 5
-  m_Name: Handle Slide Area
+  m_Name: obj_Handle_Slide_Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3057,7 +3093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1547100005}
   m_Layer: 5
-  m_Name: canvas_Buttons
+  m_Name: obj_canvas_Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3075,11 +3111,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1421001140}
-  - {fileID: 265054570}
   - {fileID: 967854773}
-  - {fileID: 997348607}
-  - {fileID: 126952781}
+  - {fileID: 265054570}
+  - {fileID: 1421001140}
+  - {fileID: 1419448393}
+  - {fileID: 1106380436}
   m_Father: {fileID: 667527865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3097,12 +3133,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1561390606}
   m_Layer: 0
-  m_Name: spr_button_game_01
+  m_Name: obj_spr_button_play01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1561390606
 Transform:
   m_ObjectHideFlags: 0
@@ -3112,7 +3148,7 @@ Transform:
   m_GameObject: {fileID: 1561390605}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.703704, y: 0, z: 0}
+  m_LocalPosition: {x: -3.703704, y: -2.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3132,7 +3168,7 @@ GameObject:
   - component: {fileID: 1626453509}
   - component: {fileID: 1626453510}
   m_Layer: 0
-  m_Name: canvas_button_game_01_mid
+  m_Name: obj_spr_button_play02_middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3147,7 +3183,7 @@ Transform:
   m_GameObject: {fileID: 1626453508}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.5877, z: 90}
+  m_LocalPosition: {x: 0, y: -4.09, z: 90}
   m_LocalScale: {x: 2.05, y: 4.447988, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3202,12 +3238,12 @@ SpriteRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1174056355881798233, guid: 26986150c090a494289c7e5e3f58fdd1, type: 3}
+  m_Sprite: {fileID: -4168838306929219676, guid: e521e71d133301544b65ffd4a6baa26a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2, y: 0.8125}
+  m_Size: {x: 1.6875, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3223,7 +3259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1705442862}
   m_Layer: 5
-  m_Name: Fill Area
+  m_Name: obj_Fill_Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3260,7 +3296,7 @@ GameObject:
   - component: {fileID: 1726701990}
   - component: {fileID: 1726701991}
   m_Layer: 0
-  m_Name: spr_menu_bg_city
+  m_Name: obj_spr_menu_bg_city
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3341,6 +3377,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!1 &1854021484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1854021485}
+  m_Layer: 0
+  m_Name: obj_SpriteManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1854021485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854021484}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.07086, y: 0.68271, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2104830131}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1924846148
 GameObject:
   m_ObjectHideFlags: 0
@@ -3353,7 +3421,7 @@ GameObject:
   - component: {fileID: 1924846151}
   - component: {fileID: 1924846150}
   m_Layer: 5
-  m_Name: Handle
+  m_Name: obj_Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3427,7 +3495,7 @@ GameObject:
   - component: {fileID: 2007220081}
   - component: {fileID: 2007220082}
   m_Layer: 0
-  m_Name: canvas_button_game_01_mid
+  m_Name: obj_spr_button_play01_middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3442,7 +3510,7 @@ Transform:
   m_GameObject: {fileID: 2007220080}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.5877, z: 90}
+  m_LocalPosition: {x: 0, y: -4.09, z: 90}
   m_LocalScale: {x: 2.05, y: 4.447988, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3497,12 +3565,12 @@ SpriteRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1174056355881798233, guid: 26986150c090a494289c7e5e3f58fdd1, type: 3}
+  m_Sprite: {fileID: -4168838306929219676, guid: e521e71d133301544b65ffd4a6baa26a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2, y: 0.8125}
+  m_Size: {x: 1.6875, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3520,7 +3588,7 @@ GameObject:
   - component: {fileID: 2013912111}
   - component: {fileID: 2013912110}
   m_Layer: 5
-  m_Name: Background
+  m_Name: obj_Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3593,12 +3661,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2055051010}
   m_Layer: 0
-  m_Name: spr_button_game_02
+  m_Name: obj_spr_button_play02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2055051010
 Transform:
   m_ObjectHideFlags: 0
@@ -3608,7 +3676,7 @@ Transform:
   m_GameObject: {fileID: 2055051009}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.703704, y: 0, z: 0}
+  m_LocalPosition: {x: 3.703704, y: -2.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3616,6 +3684,39 @@ Transform:
   - {fileID: 1626453509}
   - {fileID: 345932189}
   m_Father: {fileID: 1283258084}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2104830130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2104830131}
+  m_Layer: 0
+  m_Name: obj_spr_menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2104830131
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104830130}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 431734497}
+  - {fileID: 1283258084}
+  m_Father: {fileID: 1854021485}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2106898937
 GameObject:
@@ -3630,7 +3731,7 @@ GameObject:
   - component: {fileID: 2106898940}
   - component: {fileID: 2106898939}
   m_Layer: 5
-  m_Name: canvas_button_Eng
+  m_Name: obj_canvas_button_engl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3743,8 +3844,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 431734497}
   - {fileID: 608511000}
   - {fileID: 1011322388}
   - {fileID: 667527865}
-  - {fileID: 1283258084}
+  - {fileID: 1854021485}

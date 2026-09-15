@@ -1,0 +1,9 @@
+//scene
+//canv
+//scr
+//spr
+//obj
+//snd
+//pref
+//data
+//tile

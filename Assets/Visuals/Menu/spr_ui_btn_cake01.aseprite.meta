@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 592cdbdd9dcb16346bbef10cfa7fa1b6
+guid: e521e71d133301544b65ffd4a6baa26a
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,7 +101,7 @@ ScriptedImporter:
     addShadowCasters: 0
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
-  platformSettingsDirtyTick: 639238801076588354
+  platformSettingsDirtyTick: 639250804851892222
   singleSpriteImportData:
   - name: 
     originalName: 
@@ -127,17 +127,17 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Layer 1
     originalName: 
-    pivot: {x: 0.49999997, y: 0}
+    pivot: {x: 0.5, y: -3.368421}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 268
-      y: 4
-      width: 214
-      height: 225
-    spriteID: 42f98b3549c9f3a47a9e5515b334fc45
+      x: 4
+      y: 44
+      width: 54
+      height: 19
+    spriteID: a20685d046516b048b756ed37df6f0e7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -145,31 +145,10 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 268, y: 4}
+    uvTransform: {x: 4, y: 44}
   - name: Layer 2
     originalName: 
-    pivot: {x: 0.47651008, y: -1.3653847}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 268
-      width: 149
-      height: 52
-    spriteID: 10f5bf20164830c488d320ff449c9da6
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 268}
-  - name: Layer 3
-    originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -1}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -177,9 +156,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 256
-      height: 256
-    spriteID: a1a203668ed691f4fb4bf78ee47e7175
+      width: 54
+      height: 32
+    spriteID: a22f46968249e63468213a6267b63ea1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -188,35 +167,31 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Layer 3
+    originalName: 
+    pivot: {x: 0.5, y: -0.68421054}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 71
+      width: 54
+      height: 19
+    spriteID: 978bcb24758514744bf716f3d24e789f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 71}
   spriteSheetImportData: []
   tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    uuid:
-      value0: 4287466678
-      value1: 0
-      value2: 0
-      value3: 0
-    guid: 0
-    name: Layer 3
-    layerFlags: 3
-    layerType: 0
-    blendMode: 0
-    cells:
-    - name: Layer 3
-      frameIndex: 0
-      additiveSortOrder: 0
-      cellRect:
-        x: 0
-        y: 0
-        width: 256
-        height: 256
-      spriteId: a1a203668ed691f4fb4bf78ee47e7175
-    linkedCells: []
-    tileCells: []
-    tileSetIndex: 0
-    parentIndex: -1
-  - layerIndex: 2
     uuid:
       value0: 4287466680
       value1: 0
@@ -232,16 +207,16 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 21
-        y: 0
-        width: 214
-        height: 225
-      spriteId: 42f98b3549c9f3a47a9e5515b334fc45
+        x: 5
+        y: 64
+        width: 54
+        height: 19
+      spriteId: a20685d046516b048b756ed37df6f0e7
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
     parentIndex: -1
-  - layerIndex: 3
+  - layerIndex: 1
     uuid:
       value0: 4287466677
       value1: 0
@@ -257,11 +232,36 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 57
-        y: 71
-        width: 149
-        height: 52
-      spriteId: 10f5bf20164830c488d320ff449c9da6
+        x: 5
+        y: 32
+        width: 54
+        height: 32
+      spriteId: a22f46968249e63468213a6267b63ea1
+    linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
+    parentIndex: -1
+  - layerIndex: 2
+    uuid:
+      value0: 4287466678
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 0
+    name: Layer 3
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 3
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 13
+        width: 54
+        height: 19
+      spriteId: 978bcb24758514744bf716f3d24e789f
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -294,5 +294,5 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
-  previousTextureSize: {x: 512, y: 512}
-  canvasSize: {x: 256, y: 256}
+  previousTextureSize: {x: 64, y: 128}
+  canvasSize: {x: 64, y: 96}

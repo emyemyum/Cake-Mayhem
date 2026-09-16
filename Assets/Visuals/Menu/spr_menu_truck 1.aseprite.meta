@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 592cdbdd9dcb16346bbef10cfa7fa1b6
+guid: a7636b08cab5e454eaf5066c9899fa51
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,7 +127,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Layer 1
     originalName: 
-    pivot: {x: 0.49999997, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -135,9 +135,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 214
-      height: 225
-    spriteID: 42f98b3549c9f3a47a9e5515b334fc45
+      width: 960
+      height: 323
+    spriteID: 711bd33bd6397654aa0fd794282ca9dc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -148,17 +148,17 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Layer 2
     originalName: 
-    pivot: {x: 0.47651008, y: -1.3653847}
+    pivot: {x: -0.33898306, y: -0.046391755}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 4
-      y: 237
-      width: 149
-      height: 52
-    spriteID: 10f5bf20164830c488d320ff449c9da6
+      x: 566
+      y: 335
+      width: 354
+      height: 388
+    spriteID: 253f783c1dcdc7a469b0822abdeb29d8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -166,11 +166,53 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 237}
+    uvTransform: {x: 566, y: 335}
+  - name: Layer 4
+    originalName: 
+    pivot: {x: 0.866426, y: -0.096551724}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 335
+      width: 554
+      height: 435
+    spriteID: 93c7c2735443add4ca6db1e5dd8147f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 335}
+  - name: Layer 5
+    originalName: 
+    pivot: {x: 0.917782, y: -0.13432835}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 778
+      width: 523
+      height: 201
+    spriteID: 733628b95b80ba649a48cfbaf1b8784a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 778}
   spriteSheetImportData: []
   tileSetImportData: []
   asepriteLayers:
-  - layerIndex: 2
+  - layerIndex: 0
     uuid:
       value0: 4287466680
       value1: 0
@@ -186,16 +228,16 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 21
+        x: 0
         y: 0
-        width: 214
-        height: 225
-      spriteId: 42f98b3549c9f3a47a9e5515b334fc45
+        width: 960
+        height: 323
+      spriteId: 711bd33bd6397654aa0fd794282ca9dc
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
     parentIndex: -1
-  - layerIndex: 3
+  - layerIndex: 1
     uuid:
       value0: 4287466677
       value1: 0
@@ -211,11 +253,61 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 57
-        y: 71
-        width: 149
-        height: 52
-      spriteId: 10f5bf20164830c488d320ff449c9da6
+        x: 600
+        y: 18
+        width: 354
+        height: 388
+      spriteId: 253f783c1dcdc7a469b0822abdeb29d8
+    linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
+    parentIndex: -1
+  - layerIndex: 3
+    uuid:
+      value0: 4287466684
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 0
+    name: Layer 5
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 5
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 27
+        width: 523
+        height: 201
+      spriteId: 733628b95b80ba649a48cfbaf1b8784a
+    linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
+    parentIndex: -1
+  - layerIndex: 4
+    uuid:
+      value0: 4287466683
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 0
+    name: Layer 4
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Layer 4
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 42
+        width: 554
+        height: 435
+      spriteId: 93c7c2735443add4ca6db1e5dd8147f4
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -248,5 +340,5 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
-  previousTextureSize: {x: 256, y: 512}
-  canvasSize: {x: 256, y: 256}
+  previousTextureSize: {x: 1024, y: 1024}
+  canvasSize: {x: 960, y: 540}
